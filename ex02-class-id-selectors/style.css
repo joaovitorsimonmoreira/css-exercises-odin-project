@@ -1,0 +1,16 @@
+.odd-numbers{
+  background-color: rgb(250, 125, 125);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.cooler{
+  font-size: 24px;
+}
+#element-2{
+  color: blue;
+  font-size: 36px;
+}
+#element-4{
+  background-color: lightgreen;
+  font-size: 24px;
+  font-weight: bold;
+}
