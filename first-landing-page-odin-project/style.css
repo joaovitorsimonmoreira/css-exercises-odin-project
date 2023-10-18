@@ -1,0 +1,86 @@
+:root{
+--background-color: #1f2937;
+--header-primary-text: #f9faf8;
+--header-secondary-text: #e5e7eb;
+}
+
+/* reset css */
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+/* header */
+
+main{
+  height: 530px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--background-color);
+}
+
+header{
+  display: flex;
+  justify-content: space-around;
+  align-items: first baseline;
+  
+ 
+}
+
+header h1{
+  color: var(--header-primary-text);
+
+}
+
+
+nav .menu{
+  display: flex;
+  gap: 1.2rem;
+  justify-content: flex-end;
+  align-items:  flex-start;
+  
+}
+nav .menu li a{
+  color: var(--header-secondary-text);
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+/* box-1 /main */
+
+.box-1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  gap: 20px;
+}
+
+.title{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.title h1{
+  font-size: 48px;
+  color: var(--header-primary-text);
+}
+
+.title p{
+  color: var(--header-secondary-text);
+  font-size: 18px;
+}
+
+.button{
+width: 130px;
+height: 40px;
+background-color: #3882f6;
+border-radius: 10px;
+color: var(--header-primary-text);
+font-weight: bold;
+}
