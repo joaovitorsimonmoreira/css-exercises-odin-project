@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;600;700&family=Roboto:wght@400;700&display=swap');
+
 :root{
 --background-color: #1f2937;
 --header-primary-text: #f9faf8;
@@ -11,6 +13,10 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.397);
+  font-family: 'Pixelify Sans', sans-serif;
+ 
+  
 }
 
 /* header */
@@ -20,13 +26,17 @@ main{
   padding: 12px;
   display: flex;
   flex-direction: column;
-  background-color: var(--background-color);
+  background-image: url(images/background-cidade-01.gif);
+  background-size: cover;
+  background-position: center;
+  
+  
 }
 
 header{
   display: flex;
   justify-content: space-around;
-  align-items: first baseline;
+  align-items: center;
   
  
 }
@@ -35,20 +45,35 @@ header h1{
   color: var(--header-primary-text);
 
 }
+.logo img{
+  border-radius: 10px;
+}
+
+.logo img:hover{
+  transform: rotate(-360deg) scale(1.2);
+  cursor: pointer;
+  transition: 1s;
+}
 
 
 nav .menu{
   display: flex;
-  gap: 1.2rem;
+  gap: 1.4rem;
   justify-content: flex-end;
   align-items:  flex-start;
   
 }
 nav .menu li a{
   color: var(--header-secondary-text);
-  font-size: 18px;
+  font-size: 24px;
   font-weight: lighter;
 }
+.menu li a:hover{
+  border-bottom: 2px solid var(--header-secondary-text);
+  font-weight: bolder;
+  transition: 0.1s;
+}
+
 
 /* box-1 /main */
 
@@ -83,7 +108,27 @@ background-color: #3882f6;
 border-radius: 10px;
 color: var(--header-primary-text);
 font-weight: bold;
+border:  none;
+text-shadow: 1px 1px rgba(0, 0, 0, 0.397);
 }
+.button:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+  transition:  ease 0.3s;
+  font-weight: bolder;
+  background-color: rgb(128, 128, 245);
+  border: 1px solid rgb(119, 119, 240);
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.397);
+}
+.button-02:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 0.3s;
+  font-weight: bolder;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.397);
+}
+
+
 
 /* section/ .informations */
 
@@ -125,7 +170,13 @@ padding-top: 20px;
   gap: 30px;
   padding-top: 20px;
   flex: 0 1 150px;
+  
 }
+.caixa-1 p{
+  width: 200px;
+  
+}
+
 
 /* quote section */
 
@@ -209,5 +260,8 @@ footer{
   color: var(--header-primary-text);
   font-weight: normal;
   font-size: 14px;
+  flex-direction: column;
 
 }
+
+

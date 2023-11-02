@@ -3,20 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>landing page</title>
+  <title>pixel world</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 </head>
 <body>
   <main>
     <header>
-      <h1>
-        Header Logo
-      </h1>
+      <div class="logo">
+        <img src="images/outralogobacana.png" alt="logobacana" width="100px" height="100px">
+      </div>
       <nav>
         <ul class="menu">
-          <li><a href="#">header link one</a></li>
-          <li><a href="#">header link two</a></li>
-          <li><a href="#">header link three</a></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Pixel Lands</a></li>
         </ul>
       </nav>
     </header>
@@ -33,7 +34,7 @@
           </button>
         </div>
         <div class="placeholder">
-          <img src="images/Paisagem-1.jpg " alt="" width="520px" height="240px">
+          <img id="mario-gif" src="images/mario-run-gif.gif" alt="" width="520px" height="240px" onclick="mario_gif">
         </div>
       </div>
   </main>
@@ -44,9 +45,9 @@
     <div class="boxes">
       <div class="caixa-1">
         <div class="information-box">
-          <img src="images/Paisagem-1.jpg" alt="">
+          <img src="images/stardewvalleyimg.jpg" alt="stardew valley game image">
         </div>
-        <p>this is some subtext <br> under an illustration <br> or image</p>
+        <p>Stardew Valley is open-ended, allowing players to grow crops, raise livestock, fish, cook, mine, forage, and socialize with the townspeople, including the ability to marry and have children.</p>
       </div>
       <div class="caixa-1">
         <div class="information-box">
@@ -91,7 +92,7 @@
             sign up for your product by clicking that button right over there
           </p>
         </div>
-        <button>
+        <button class="button-02">
           sign up
         </button>
       </div>
@@ -101,6 +102,10 @@
     <h1>
       Copyright <i>&#169;</i> The odin Project 2021
     </h1>
+    <h2>
+      project by yMrTinny <br> art by Sean
+    </h2>
   </footer>
+
 </body>
 </html>

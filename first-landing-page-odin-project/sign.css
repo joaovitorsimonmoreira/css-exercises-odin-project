@@ -1,0 +1,38 @@
+:root{
+  --background-color: #1f2937;
+  --header-primary-text: #f9faf8;
+  --header-secondary-text: #e5e7eb;
+  }
+  
+  /* reset css */
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.397);
+    font-family: Arial, Helvetica, sans-serif
+  }
+  body{
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vw;
+  }
+  main{
+    width: 400px;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    background-color: aquamarine;
+  }
+  .inputs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
