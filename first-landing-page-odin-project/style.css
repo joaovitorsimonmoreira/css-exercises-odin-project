@@ -13,7 +13,7 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
-  text-shadow: 1px 1px rgba(0, 0, 0, 0.397);
+  text-shadow: 2px 2px black;
   font-family: 'Pixelify Sans', sans-serif;
  
   
@@ -121,7 +121,7 @@ text-shadow: 1px 1px rgba(0, 0, 0, 0.397);
   text-shadow: 1px 1px rgba(0, 0, 0, 0.397);
 }
 .button-01{
-  color: black;
+  color: white;
   font-size: 16px;
 }
 
@@ -141,10 +141,11 @@ text-shadow: 1px 1px rgba(0, 0, 0, 0.397);
 .information{
 display: flex;
 flex-direction: column;
-justify-content: center;
+justify-content: space-around;
 align-items: center;
 padding-top: 20px;
-background-image: linear-gradient(#1a141d,#1f2937);
+width: 100vw;
+
 }
 
 .information h1{
@@ -168,14 +169,14 @@ background-image: linear-gradient(#1a141d,#1f2937);
 .information-box img{
   border: 4px solid rgba(0, 0, 0, 0.89) ;
   border-radius: 10px;
-  width: 170px;
-  height: 170px;
+  width: 200px;
+  height: 200px;
   
 }
 
 .boxes{
   display: flex;
-  gap: 30px;
+  gap: 80px;
   padding-top: 20px;
   flex: 0 1 150px;
   
@@ -198,7 +199,7 @@ transition:  ease .3s;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: var(--header-secondary-text);
+  
   width: 100vw;
   height: 440px;
   
@@ -208,14 +209,16 @@ transition:  ease .3s;
   font-size: 36px;
   font-weight: lighter;
   font-style: italic;
-  color: #1f2937;
+  color: white;
   width: 50%;
+  text-shadow: 1px 1px black;
 }
 
 .quote h2{
   font-size: 25px;
   font-weight: bold;
-  color: #1f2937;
+  color: white;
+  text-shadow: 1px 1px black;
   
 }
 
@@ -227,36 +230,41 @@ transition:  ease .3s;
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 
 .sign-text{
   display: flex;
   width: 70vw;
   height: 150px;
-  background-color: #3882f6;
+  background-image: linear-gradient(#f11e7d,#960c4a);
   justify-content: space-around;
   align-items: center;
   border-radius: 10px;
-  color: var(--header-primary-text);
+  color: white;
+  border: 4px solid black;
+  
 }
 .sign-text h1{
-  font-size: 30px;
+  font-size: 40px;
   font-weight: bolder;
+  text-shadow: 4px 4px black;
 }
 
 .sign-text div p{
-  font-size: 20px;
+  font-size: 30px;
   font-weight: lighter;
+  text-shadow: 4px 4px black;
 }
 
 .sign-text button{
-  border: 2px solid white;
-  background-color: transparent;
-  height: 40px;
-  width: 15%;
-  color: var(--header-primary-text);
+  border: 2px solid black;
+  background-image: linear-gradient(#1a141d,#1f2937);
+  height: 70px;
+  width: 140px;
+  color: white;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 25px;
   border-radius: 10px;
   cursor: pointer;
 }
@@ -267,13 +275,18 @@ footer{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--background-color);
+  
   height: 100px;
   width: 100vw;
   color: var(--header-primary-text);
   font-weight: normal;
   font-size: 14px;
   flex-direction: column;
+  
 
+
+}
+.background{
+  background-image: linear-gradient(#1f2937,#1a141d);
 }
 
