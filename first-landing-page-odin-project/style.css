@@ -4,6 +4,7 @@
 --background-color: #1f2937;
 --header-primary-text: #f9faf8;
 --header-secondary-text: #e5e7eb;
+
 }
 
 /* reset css */
@@ -15,6 +16,7 @@
   list-style: none;
   text-shadow: 2px 2px black;
   font-family: 'Pixelify Sans', sans-serif;
+  
  
   
 }
@@ -23,8 +25,8 @@
 /* header */
 
 main{
-  height: 530px;
-  padding: 12px;
+  height: 33.125rem;
+  padding: 0.75rem;
   display: flex;
   flex-direction: column;
   background-image: url(images/background-cidade-01.gif);
@@ -66,7 +68,7 @@ nav .menu{
 }
 nav .menu li a{
   color: var(--header-secondary-text);
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: lighter;
 }
 .menu li a:hover{
@@ -82,31 +84,31 @@ nav .menu li a{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 500px;
-  gap: 20px;
+  height: 31.25rem;
+  gap: 1.25rem;
 }
 
 .title{
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 0.625rem;
 }
 
 .title h1{
-  font-size: 48px;
+  font-size: 3rem;
   color: var(--header-primary-text);
 }
 
 .title p{
   color: var(--header-secondary-text);
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 
 .button{
-width: 130px;
-height: 40px;
+width: 8.125rem;
+height: 2.5rem;
 background-color:#f11e7d;
-border-radius: 10px;
+border-radius: 0.625rem;
 color: var(--header-primary-text);
 font-weight: bold;
 border:  none;
@@ -122,7 +124,7 @@ text-shadow: 1px 1px rgba(0, 0, 0, 0.397);
 }
 .button-01{
   color: white;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 
@@ -143,42 +145,43 @@ display: flex;
 flex-direction: column;
 justify-content: space-around;
 align-items: center;
-padding-top: 20px;
+padding-top: 1.25rem;
 width: 100vw;
 
 }
 
 .information h1{
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: bolder;
   color: white;
 }
 
 .information p{
   color: white;
-  font-size: 18px;
+  font-size: 1.125rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 10px;
-  padding-bottom: 40px;
+  padding-top: 0.625rem;
+  padding-bottom: 2.5rem;
   
 }
 
 
 .information-box img{
   border: 4px solid rgba(0, 0, 0, 0.89) ;
-  border-radius: 10px;
-  width: 200px;
-  height: 200px;
+  border-radius: 0.625rem;
+  width: 12.5rem;
+  height: 12.5rem;
   
 }
 
 .boxes{
   display: flex;
-  gap: 80px;
-  padding-top: 20px;
+  gap: 5rem;
+  padding-top: 1.25rem;
   flex: 0 1 150px;
+  
   
 }
 .caixa-1 img:hover{
@@ -187,7 +190,7 @@ transition:  ease .3s;
 }
 
 .caixa-1 p{
-  width: 200px;
+  width: 12.5rem;
   
 }
 
@@ -201,12 +204,12 @@ transition:  ease .3s;
   align-items: center;
   
   width: 100vw;
-  height: 440px;
+  height: 27.5rem;
   
 }
 
 .quote h1{
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: lighter;
   font-style: italic;
   color: white;
@@ -215,7 +218,7 @@ transition:  ease .3s;
 }
 
 .quote h2{
-  font-size: 25px;
+  font-size: 1.5625rem;
   font-weight: bold;
   color: white;
   text-shadow: 1px 1px black;
@@ -226,7 +229,7 @@ transition:  ease .3s;
 
 .sign-up{
   width: 100vw;
-  height: 355px;
+  height: 22.1875rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -235,8 +238,8 @@ transition:  ease .3s;
 
 .sign-text{
   display: flex;
-  width: 70vw;
-  height: 150px;
+  width: 80vw;
+  height: 9.375rem;
   background-image: linear-gradient(#f11e7d,#960c4a);
   justify-content: space-around;
   align-items: center;
@@ -246,13 +249,13 @@ transition:  ease .3s;
   
 }
 .sign-text h1{
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: bolder;
   text-shadow: 4px 4px black;
 }
 
 .sign-text div p{
-  font-size: 30px;
+  font-size: 1.875rem;
   font-weight: lighter;
   text-shadow: 4px 4px black;
 }
@@ -260,11 +263,11 @@ transition:  ease .3s;
 .sign-text button{
   border: 2px solid black;
   background-image: linear-gradient(#1a141d,#1f2937);
-  height: 70px;
-  width: 140px;
+  height: 4.375rem;
+  width: 8.75rem;
   color: white;
   font-weight: bold;
-  font-size: 25px;
+  font-size: 1.5625rem;
   border-radius: 10px;
   cursor: pointer;
 }
@@ -276,12 +279,13 @@ footer{
   justify-content: center;
   align-items: center;
   
-  height: 100px;
+  height: 6.25rem;
   width: 100vw;
   color: var(--header-primary-text);
   font-weight: normal;
-  font-size: 14px;
+  font-size: 0.875rem;
   flex-direction: column;
+  flex-wrap: wrap;
   
 
 
